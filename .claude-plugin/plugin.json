@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "printresize",
+  "version": "1.0.0",
+  "description": "Turn an image into a print file with the PrintResize API: exact sizes in centimetres, 2K to 8K upscale, seamless repeats, and tablecloth or placemat mockups.",
+  "author": {
+    "name": "Ivanvolt",
+    "url": "https://github.com/ivanvolt-labs"
+  },
+  "homepage": "https://printresize.com/docs/agent-skill",
+  "repository": "https://github.com/ivanvolt-labs/printresize-skill",
+  "license": "MIT",
+  "skills": ["./skills/printresize"]
+}
